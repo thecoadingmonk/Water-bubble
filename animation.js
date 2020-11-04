@@ -53,10 +53,10 @@ class Circle {
       this.y += this.dy;
 
       if (
-        mouse.x - this.x < 50 &&
-        mouse.x - this.x > -50 &&
-        mouse.y - this.y < 50 &&
-        mouse.y - this.y > -50 &&
+        mouse.x - this.x < 100 &&
+        mouse.x - this.x > -100 &&
+        mouse.y - this.y < 100 &&
+        mouse.y - this.y > -100 &&
         this.radius < maxRadius
       ) {
         this.radius += 1;
@@ -73,7 +73,7 @@ let circleArray = [];
 function init() {
   circleArray = [];
   for (let i = 0; i < 1200; i++) {
-    let radius = Math.random() * 3 + 1;
+    let radius = Math.random() * 7 + 1;
     let x = Math.random() * (innerWidth - radius * 2) + radius;
     let y = Math.random() * (innerHeight - radius * 2) + radius;
     let dx = (Math.random() - 0.5) * 8;
