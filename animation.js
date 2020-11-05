@@ -18,6 +18,14 @@ window.addEventListener("mousemove", function (event) {
   mouse.y = event.y;
 });
 
+window.addEventListener("click", function () {
+  if (canvas.style.backgroundColor === "black") {
+    canvas.style.backgroundColor = "white";
+  } else {
+    canvas.style.backgroundColor = "black";
+  }
+});
+
 window.addEventListener("resize", function () {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
