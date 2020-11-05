@@ -3,4 +3,4 @@
 
 _Italic_ Simple canvas graphics via javascript
 
-[Link](https://thecoadingmonk.github.io/Water-bubble/)
+[check here](https://thecoadingmonk.github.io/Water-bubble/)
