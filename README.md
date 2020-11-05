@@ -1,12 +1,6 @@
 
 # Water bubble
 
-- Bulleted
-- List
+_Italic_ Simple canvas graphics via javascript
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+[Link](https://thecoadingmonk.github.io/Water-bubble/)
